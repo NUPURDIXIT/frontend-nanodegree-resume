@@ -78,13 +78,14 @@ var work={
  	"projects":[{
 	 		"titles":"Visitor log",
 	 		"Dates":"April - May 2016",
-	 		"Description": "This project keeps track of all the visitors by saving their name,email,contact details etc.. Extra features focus filtering the list of visitors within a date range.Additionally the list can be saved in an excel file."
+	 		"Description": "This project keeps track of all the visitors by saving their name,email, contact details etc.."+
+	 		 	"Extra features includes filtering the list of visitors within a date range.Additionally the list can be saved in an excel file."
 	 				
 	 		},
 	 		{
 	 		"titles":"Loan Calculator in Javascript",
 	 		"Dates":"July-Aug 2016",
-	 		"Description" : "This project focus on building a loan calculator. It also builds a graph showing the equity,total interest payment and Loan amount."
+	 		"Description" : "This project focusses on building a loan calculator. It also builds a graph showing the equity,total interest payment and Loan amount."
  			}
  			]
  	};
