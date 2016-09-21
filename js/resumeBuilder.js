@@ -17,7 +17,7 @@ This is empty on purpose! Your code to build the resume will go here.
  	"name":"Nupur Dixit",
  	"role":"Software Developer",
  	"contact":{
- 		"mobile":"632-456-7891",
+ 		"mobile":"XXX-XX-XXXX",
  		"email":"nupurdixit13@gmail.com",
  		"github":"nupurdixit13",
  		"location":"San Mateo"
