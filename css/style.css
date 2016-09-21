@@ -29,6 +29,7 @@ h1 {
   color: #f5a623;
   line-height: 48px;
   display: inline;
+
 }
 
 h2 {
@@ -63,11 +64,12 @@ h5 {
 
 
 .date-text {
-  font-style: italic;
-  font-size: 14px;
+  font-style: normal;
+  font-size: 16px;
   color: #999;
   line-height: 16px;
   float: left;
+  padding-right: 1em
 }
 
 .location-text {
@@ -100,6 +102,7 @@ a {
 }
 
 #skills-h3 {
+  padding-top: 2em;
   color: #f5ae23;
   display: none;
 }
@@ -110,9 +113,12 @@ a {
 
 .orange-text {
   color: #f5ae23;
+  word-spacing: 12px;
+
 }
 
 .white-text {
+  padding-right: 4em;
   font-weight: bold;
   color: #fff;
 }
