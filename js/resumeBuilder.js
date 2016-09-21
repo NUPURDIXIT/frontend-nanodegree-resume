@@ -36,7 +36,8 @@ var work={
 		 		"employer":"UHG",
 		 		"Years_worked":"3.5years",
 		 		"City":"Gurgaon",
-		 		"Description":"I was in Development team worked for Customer and Liquidity Managament"
+		 		"Description":"Worked as Senior Software Engineer for Network database for Providers"
+		 			
 		 					
 		 	},
 		 	{
@@ -44,8 +45,8 @@ var work={
 		 		"employer":"Infosys",
 		 		"Years_worked":"2.5years",
 		 		"City":"Pune",
-		 		"Description":"I was in Solution Support and Operations team majorly responsible"+
-		 						"for solving tickets and doing minor enhancements"
+		 		"Description":"Worked as Software Engineer for various development projects, multiple projects includes Wealth Reward Saver, Wealth Flexi, Corpflexi, Operational Audit Reporting,"+
+		 		        	"ETL and R6 which are development & enhancement programs for Barclay’s Customer Liquidity Management application CLM."
 		 	}
 		 	]
 		 }
