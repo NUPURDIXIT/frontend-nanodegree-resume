@@ -77,12 +77,13 @@ var work={
  	"projects":[{
 	 		"titles":"Visitor log",
 	 		"Dates":"April - May 2016",
-	 		"Description": "Visitor log to record the details of the person visiting"
+	 		"Description": "This project keeps track of all the visitors by saving their name,email,contact details etc.. Extra features focus filtering the list of visitors within a date range.Additionally the list can be saved in an excel file."
+	 				
 	 		},
 	 		{
-	 		"titles":"Bank Account",
+	 		"titles":"Loan Calculator in Javascript",
 	 		"Dates":"July-Aug 2016",
-	 		"Description" : "Maintains a BankAccount in which the transaction can be performed"
+	 		"Description" : "This project focus on building a loan calculator. It also builds a graph showing the equity,total interest payment and Loan amount."
  			}
  			]
  	};
