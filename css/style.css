@@ -21,75 +21,87 @@ h6 {
 .education-entry,
 .work-entry,
 .project-entry {
-  padding: 0 5%;
+  padding: 1em 5%;
+
 }
 
+
 h1 {
-  font-size: 40px;
+  font-size: 2em;
   color: #f5a623;
-  line-height: 48px;
+  line-height: 2em;
   display: inline;
+
 }
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5em;
   color: #999;
-  line-height: 29px;
-  padding: 10px;
+  line-height: 1.5em;
+  padding: 0.7em;
 }
 
 h3 {
   font-style: italic;
-  font-size: 20px;
+  font-size: 1.2em;
   color: #000;
-  line-height: 22px;
+  line-height: 1.2em;
 }
 
 h4 {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1em;
   color: #4a4a4a;
-  line-height: 17px;
+  line-height: 1em;
 }
 
 h2,
 h3,
 h4,
 h5 {
-  padding:10px 5%;
+  padding:0.8em 5%;
 
 }
 
+.role{
+	font-size:0.875em;
+	padding:0 0 0.8em 0;
+	text-align:left;
+}
 
 .date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: left;
+  font-style: normal;
+  font-size: 0.875em;
+  color: #000;
+  line-height: 1em
+  /*float: left;*/
+  padding:0 0 0.6em 0;
+  text-align:left;
 }
 
 .location-text {
   font-style: italic;
-  font-size: 14px;
+  font-size: 1em;
   color: #999;
-  line-height: 16px;
+  line-height: 1em;
   float: right;
 
 }
 
 p {
-  font-size: 14px;
-  color: #333;
-  line-height: 21px;
+  font:75% Verdana, Arial, sans-serif;
+  color: #000;
+  line-height: 1.2em;
+  padding:0 0 0 0;
 }
 
 a {
   color: #1199c3;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 0.2em;
   display: block;
+  padding: 0 0 1em 0;
 }
 
 .welcome-message {
@@ -100,6 +112,7 @@ a {
 }
 
 #skills-h3 {
+  padding-top: 2em;
   color: #f5ae23;
   display: none;
 }
@@ -110,16 +123,22 @@ a {
 
 .orange-text {
   color: #f5ae23;
+  word-spacing: 1em;
+  padding-bottom:1em;
+  font-size:1em;
+
 }
 
 .white-text {
+  padding-right: 4em;
   font-weight: bold;
   color: #fff;
+  font-size:0.876em;
 }
 
 .gray {
   background-color: #f3f3f3;
-  padding-bottom: 10px;
+  padding-bottom: 0.7em;
   clear:both;
 }
 
@@ -130,6 +149,7 @@ a {
 /* TODO: Replace with image later */
 #header {
   background-color: #484848;
+  width:auto
 }
 
 .flex-box {
@@ -158,8 +178,8 @@ ul {
 
 .biopic {
   float: left;
-  padding: 10px;
-  width: 200px;
+  padding: 0.8em;
+  width: 14em;
   display: none;
 }
 
@@ -168,7 +188,9 @@ img {
 }
 
 span {
-  padding: 5px;
+  font-size:1em;
+  padding: 0.5em;
+  color:#fff;
 }
 
 #lets-connect {
