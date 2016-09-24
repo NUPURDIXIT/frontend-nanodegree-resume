@@ -72,20 +72,12 @@ h5 {
 
 .date-text {
   font-style: normal;
-<<<<<<< HEAD
   font-size: 0.875em;
   color: #000;
   line-height: 1em
   /*float: left;*/
   padding:0 0 0.6em 0;
   text-align:left;
-=======
-  font-size: 16px;
-  color: #999;
-  line-height: 16px;
-  float: left;
-  padding-right: 1em
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
 }
 
 .location-text {
@@ -98,16 +90,10 @@ h5 {
 }
 
 p {
-<<<<<<< HEAD
   font:75% Verdana, Arial, sans-serif;
   color: #000;
   line-height: 1.2em;
   padding:0 0 0 0;
-=======
-  font-size: 18px;
-  color: #333;
-  line-height: 21px;
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
 }
 
 a {
@@ -137,13 +123,9 @@ a {
 
 .orange-text {
   color: #f5ae23;
-<<<<<<< HEAD
   word-spacing: 1em;
   padding-bottom:1em;
   font-size:1em;
-=======
-  word-spacing: 12px;
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
 
 }
 

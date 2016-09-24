@@ -17,7 +17,6 @@ This is empty on purpose! Your code to build the resume will go here.
  	"name":"Nupur Dixit",
  	"role":"Software Developer",
  	"contact":{
-<<<<<<< HEAD
  		"mobile":"XXX-XXX-XXXX",
  		"email":"nupurdixit13@gmail.com",
  		"github":"nupurdixit",
@@ -25,15 +24,6 @@ This is empty on purpose! Your code to build the resume will go here.
  	},
  	"skills":[
  				"java","python","react.js","CSS","HTML5","machine learning","javascript"],
-=======
- 		"mobile":"XXX-XX-XXXX",
- 		"email":"nupurdixit13@gmail.com",
- 		"github":"nupurdixit13",
- 		"location":"San Mateo"
- 	},
- 	"skills":[
- 				"java","python","machine learning","javascript"],
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
  	"pic":"./linkedIn_profileImg.jpg",
  	"welcome_message":"Hey! Good Evening?"
  }
@@ -44,32 +34,18 @@ var work={
 			{
 		 		"Last_job_position":"Senior Software Engineer",
 		 		"employer":"UHG",
-<<<<<<< HEAD
 		 		"Years_worked":"July 2009 - Jan 2012",
 		 		"City":"Gurgaon",
 		 		"Description":"I was in Development team worked for Customer and Liquidity Managament"
-=======
-		 		"Years_worked":"3.5years",
-		 		"City":"Gurgaon",
-		 		"Description":"Worked as Senior Software Engineer for Network database for Providers"
-		 			
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
 		 					
 		 	},
 		 	{
 		 		"Last_job_position":"Software Engineer",
 		 		"employer":"Infosys",
-<<<<<<< HEAD
 		 		"Years_worked":"Feb 2012 - May 2015",
 		 		"City":"Pune",
 		 		"Description":"I was in Solution Support and Operations team majorly responsible"+
 		 						"for solving tickets and doing minor enhancements"
-=======
-		 		"Years_worked":"2.5years",
-		 		"City":"Pune",
-		 		"Description":"Worked as Software Engineer for various development projects, multiple projects includes Wealth Reward Saver, Wealth Flexi, Corpflexi, Operational Audit Reporting,"+
-		 		        	"ETL and R6 which are development & enhancement programs for Barclay’s Customer Liquidity Management application CLM."
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
 		 	}
 		 	]
 		 }
@@ -101,23 +77,12 @@ var work={
  	"projects":[{
 	 		"titles":"Visitor log",
 	 		"Dates":"April - May 2016",
-<<<<<<< HEAD
 	 		"Description": "Visitor log to record the details of the person visiting"
 	 		},
 	 		{
 	 		"titles":"Bank Account",
 	 		"Dates":"July-Aug 2016",
 	 		"Description" : "Maintains a BankAccount in which the transaction can be performed"
-=======
-	 		"Description": "This project keeps track of all the visitors by saving their name,email, contact details etc.."+
-	 		 	"Extra features includes filtering the list of visitors within a date range.Additionally the list can be saved in an excel file."
-	 				
-	 		},
-	 		{
-	 		"titles":"Loan Calculator in Javascript",
-	 		"Dates":"July-Aug 2016",
-	 		"Description" : "This project focusses on building a loan calculator. It also builds a graph showing the equity,total interest payment and Loan amount."
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
  			}
  			]
  	};
@@ -163,15 +128,11 @@ displayProjects();
   $("#header").append(HTMLskillsStart);
  }
 
-<<<<<<< HEAD
  for(var s in bio.skills){
 	 var formattedSkill=HTMLskills.replace("%data%",bio.skills[s]);
 	$("#skills").append(formattedSkill);
  }
 /*var formattedSkill=HTMLskills.replace("%data%",bio.skills[0]);
-=======
-var formattedSkill=HTMLskills.replace("%data%",bio.skills[0]);
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
  $("#skills").append(formattedSkill);
  formattedSkill=HTMLskills.replace("%data%",bio.skills[1]);
  
@@ -180,11 +141,7 @@ var formattedSkill=HTMLskills.replace("%data%",bio.skills[0]);
  $("#skills").append(formattedSkill);
  formattedSkill=HTMLskills.replace("%data%",bio.skills[3]);
  $("#skills").append(formattedSkill);
-<<<<<<< HEAD
  */
-=======
- 
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
 
 function displayWork(){
 	for(job in work.jobs){
@@ -198,17 +155,10 @@ function displayWork(){
 		var formattedDescription=HTMLworkDescription.replace("%data%",work.jobs[job].Description);
 
 
-<<<<<<< HEAD
 		$(".work-entry:last").append(formattedTitle);
 		$(".work-entry:last").append(formattedDate);
 		$(".work-entry:last").append(formattedLocation);
 		
-=======
-		
-		$(".work-entry:last").append(formattedDate);
-		$(".work-entry:last").append(formattedLocation);
-		$(".work-entry:last").append(formattedTitle);
->>>>>>> 6aa0e13fef874f5487c45d8feefccf1e847cc126
 		$(".work-entry:last").append(formattedDescription);
 	}
 }
